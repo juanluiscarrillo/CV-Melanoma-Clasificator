@@ -8,7 +8,7 @@ Además, se muestra la confianza en cada una de las predicciones.
 
 La clasificación se realiza con una red neuronal convolucional. La aplicación cuenta con una interfaz gráfica desde la que se puede seleccionar la imagen.
 
-A continuación, se desarrolla la explicación del trabajo
+A continuación, se desarrolla la explicación del trabajo.
 
 ## Introducción
 
@@ -22,6 +22,11 @@ Las imágenes que se han utilizado pertenecen al *dataset* [Skin Cancer: Maligna
 La clasificación se realiza con una red neuronal convolucional. Se ha implementado código, tanto para la fase de entrenamiento, como para la fase de clasificación. En la fase de entrenamiento se crea un modelo de red, que será utilizado por la fase de clasificación. La aplicación almacena el mejor modelo (los mejores pesos) en la carpeta *models_melanoma*. Además, crea dos ficheros *.png* con las gráficas de precisión y pérdida del entrenamiento.
 
 La aplicación cuenta, además, con una interfaz gráfica desde la que se puede seleccionar la imagen.
+
+
+## Resultados
+
+La clasificación tiene una tasa de acierto aproximada del 78% sobre el conjunto de test. Además, se ha podido constatar que en los casos de fallo, la confianza de la predicción suele tener valores por debajo del 60%. En futuras revisiones de la aplicación, sería interesante realizar un estudio de establecer tres categorías, melanoma, benigno o dudoso, en función de la confianzada en la predicción.
 
 
 ### Utilización de la aplicación
